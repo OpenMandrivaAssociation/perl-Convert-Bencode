@@ -7,7 +7,7 @@ Release:	5
 Summary:	Functions for converting to/from bencoded strings
 License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/Convert-Bencode/
+URL:		https://search.cpan.org/dist/Convert-Bencode/
 Source0:	http://www.cpan.org/authors/id/O/OR/ORCLEV/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
