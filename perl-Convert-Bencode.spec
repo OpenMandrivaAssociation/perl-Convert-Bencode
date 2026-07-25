@@ -2,13 +2,13 @@
 %define upstream_version 1.03
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 Summary:	Functions for converting to/from bencoded strings
 License:	GPL+ or Artistic
 Group:		Development/Perl
-URL:		https://search.cpan.org/dist/Convert-Bencode/
-Source0:	http://www.cpan.org/authors/id/O/OR/ORCLEV/%{upstream_name}-%{upstream_version}.tar.gz
+URL:		https://metacpan.org/dist/Convert-Bencode
+Source0:	https://cpan.metacpan.org/authors/id/O/OR/ORCLEV/Convert-Bencode-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
