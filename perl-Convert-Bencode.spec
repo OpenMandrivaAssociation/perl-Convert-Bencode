@@ -1,14 +1,12 @@
 %define upstream_name    Convert-Bencode
-%define upstream_version 1.03
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	1.03
+Release:	7
 Summary:	Functions for converting to/from bencoded strings
 License:	GPL+ or Artistic
 Group:		Development/Perl
 URL:		https://metacpan.org/dist/Convert-Bencode
-Source0:	https://cpan.metacpan.org/authors/id/O/OR/ORCLEV/Convert-Bencode-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/O/OR/ORCLEV/Convert-Bencode-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -23,7 +21,7 @@ This module provides two functions, bencode and bdecode, which encode and
 decode bencoded strings respectively.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
