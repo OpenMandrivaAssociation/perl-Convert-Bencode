@@ -2,7 +2,7 @@
 %define upstream_version 1.03
 Name:		perl-%{upstream_name}
 Version:	1.03
-Release:	2
+Release:	3
 Summary:	Functions for converting to/from bencoded strings
 License:	GPL+ or Artistic
 Group:		Development/Perl
